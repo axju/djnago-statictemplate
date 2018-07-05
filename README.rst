@@ -17,4 +17,8 @@ Include the statictemplate URLconf in your project urls.py like this::
     path('newsletter/', include('statictemplate.urls')),
 
 Create the folder '/templates/statictemplate/' and add some static templates.
-Get the url with {% url 'statictemplate' name='help' %} for the template 'help.html'.
+Get the url with
+
+    {% url 'statictemplate' name='help' %}
+
+for the template 'help.html'.
